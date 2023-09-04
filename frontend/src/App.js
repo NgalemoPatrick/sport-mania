@@ -4,6 +4,7 @@ import Public from "./components/Public";
 import Login from "./features/auth/Login";
 import Register from "./features/Register";
 import DashLayout from "./components/DashLayout";
+import Profile from "./features/Profile";
 function App() {
   return (
     <Routes>
@@ -11,7 +12,9 @@ function App() {
         <Route index element={<Public />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
-        <Route path='dash' element={<DashLayout />} />
+        <Route path="dash" element={<DashLayout />}>
+          <Route index element={<Profile />} />
+        </Route>
       </Route>
     </Routes>
   );
