@@ -14,6 +14,9 @@ const Public = () => {
                 Sports Mania is a platform where you can connect and share with others pationate of sports.
             </p>
         </main>
+        <footer>
+            <Link to ='/login'>Click Here to login</Link>
+        </footer>
     </section>
   )
 }
