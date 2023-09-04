@@ -15,7 +15,8 @@
 body {
   font-family: sans-serif;
   min-height: 100vh;
-  background-color: var(--BGCOLOR);
+  /* background-color: var(--BGCOLOR); */
+  
 }
 
 #root {
@@ -28,6 +29,9 @@ body {
 .public {
   padding: 1em;
   flex-grow: 1;
+  background-image: url(./images/mainBgImg.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .public_main {
@@ -44,6 +48,7 @@ body {
 
 .public main {
   height: 60vh;
+  
 }
 footer {
   font-size: 1rem;
@@ -53,5 +58,11 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
+  gap: 2rem;
   
+}
+
+footer Link {
+  text-decoration: none;
+  color: white;
 }
