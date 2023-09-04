@@ -11,7 +11,7 @@ const Public = () => {
         </header>
         <main className="public_main">
             <p>
-                Sports Mania is a platform where you can connect and share with others pationate of sports. 
+                Sports Mania is a platform where you can connect and share with others pationate of sports.
             </p>
         </main>
     </section>
