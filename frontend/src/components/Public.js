@@ -33,7 +33,7 @@ const Public = () => {
           style={({ isActive }) =>
             isActive
               ? {
-                  color: "#fff",
+                  color: "#000",
                   background: "#0A3442",
                 }
               : { color: "#545e6f", background: "#f0f0f0" }
