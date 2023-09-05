@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Profile = () => {
   return (
-    <h1>User Page</h1>
-  )
-}
+    <section className='profile-container'>
+      <h1>User Page</h1>
+    </section>
+  );
+};
 
-export default Profile
+export default Profile;
