@@ -11,10 +11,11 @@ html {
 
 body {
   min-height: 100vh;
-  background-image: url(./images/mainBgImg.png);
+  background-color: #566771;
+  /* background-image: url(./public/images/mainBgImg.png);
   background-size: cover;
-  background-position: center;
-  color: whitesmoke;
+  background-position: center; */
+  color: #000;
   display: grid;
   place-content: center;
   padding: 1rem;

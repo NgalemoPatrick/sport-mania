@@ -11,5 +11,8 @@ app.use('/', express.static(path.join(__dirname, '/public')))
 
 // define the root route of the app
 app.use('/', require('./routes/root'))
+
+
+
 // Start the app
 app.listen(PORT, () => console.log(`Server runniing on port ${PORT}`))
