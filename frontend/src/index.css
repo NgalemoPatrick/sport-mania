@@ -98,12 +98,12 @@ footer {
   height: 70vh;
 }
 
-.registration, .login {
+.registration{
   display: flex;
   justify-content: space-between;
 }
 
-.registration-logo-site, .login-logo_side {
+.registration-logo-site{
   height: 100vh;
   width: 50%;
   background-image: url(./images/mainBgImg.png);
@@ -199,15 +199,14 @@ padding: 0.5rem;
 }
 
 /* Login Page Style */
-section {
+.login-form {
   width: 100%;
-  max-width: 420px;
-  min-height: 400px;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: flex-start;
-  padding: 1rem;
-  background-color: rgba(0,0,0,0.4);
+  /* padding: 1rem; */
+  /* background-color: rgba(0,0,0,0.4); */
 }
 
 form {
@@ -219,7 +218,7 @@ form {
 }
 
 a, a:visited {
-  color: #fff;
+  color: #000;
 }
 
 input[type="text"],
@@ -284,4 +283,17 @@ padding: 0.5rem;
 
 .line {
   display: inline-block;
+}
+
+.login-logo_side {
+  width: 50%;
+  background-image: url(./images/mainBgImg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.login-side {
+  width: 50%;
+  background-color: white;
+  
 }
