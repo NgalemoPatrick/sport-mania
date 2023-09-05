@@ -5,9 +5,12 @@ const path = require("path")
 const PORT = process.env.PORT || 5100
 
 
+// process json
+app.use(express.json)
+
 
 // define the static files route
-app.use('/', express.static(path.join(__dirname, '/public')))
+app.use( express.static('public'))
 
 // define the root route of the app
 app.use('/', require('./routes/root'))
