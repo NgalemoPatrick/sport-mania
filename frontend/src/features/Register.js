@@ -5,6 +5,7 @@ import {
   faInfoCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
@@ -88,7 +89,7 @@ const Register = () => {
     <section className="registration">
       <section className="regitration-sec">
         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
-                    <h1>Register</h1>
+                    <h1>Sign Up</h1>
                     <form onSubmit={handleSubmit}>
                         <label htmlFor="username">
                             Username:
@@ -167,7 +168,8 @@ const Register = () => {
                         Already registered?<br />
                         <span className="line">
                             {/*put router link here*/}
-                            <a href="#">Sign In</a>
+                            <Link to='/login'>Sign in</Link>
+                
                         </span>
                     </p>
       </section>
